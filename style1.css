@@ -1,0 +1,179 @@
+body, h1, h2, h3, p, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #9B4444;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.nav ul {
+    list-style: none;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    align-items: center;
+}
+nav ul li:hover {
+    background-color: #dc2323;
+}
+
+
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 60px 0;
+}
+
+#hero {
+    background: url('luca-bravo-O453M2Liufs-unsplash.jpg') center/cover no-repeat;
+    text-align: center;
+    color: #fff;
+    padding: 200px 20px;
+}
+
+#hero h2 {
+    margin-bottom: 20px;
+    color: #dc2323;
+    -webkit-text-stroke: 0.3vw #d43939;
+    text-transform: uppercase;
+    content: attr(data-text);
+    margin: auto;
+    overflow: hidden;
+}
+
+#hero p {
+    color: #dd2424;
+    text-decoration: ;
+    font-size: x-large;
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+#about img  {
+    height: 50%;
+    width: 50%;
+    margin-right: 10%;
+    float: left;
+    object-fit: cover;
+    border-radius: 50px;
+    border: 2px solid red;
+    margin-bottom: 2%;
+    
+}
+.btn {
+    display: inline-block;
+    background: #130101;
+    color: #d02727;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+.btn:hover {
+    background-color: burlywood;
+}
+
+
+
+#destinations {
+    background: #d9cfd5;
+    text-align: center;
+}
+
+.destination-card {
+    display: inline-block;
+    margin: 20px;
+    text-align: left;
+    width: calc(33.33% - 40px);
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.destination-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+#about, #contact {
+    text-align: center;
+    background-color: #d9cfd5;
+    margin: 2px;
+    color: #9B4444;
+}
+#about p {
+    max-width: 600px;
+    font-size: medium;
+    text-align: justify;
+    margin-left: 550px;
+    margin-top: 8%;
+    text-transform: uppercase;
+    color: #9B4444;
+}
+
+
+form {
+    margin-top: 20px;
+}
+button:hover {
+    background-color: #dc2323;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #7e1f1f;
+    border-radius: 5px;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #9B4444;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
